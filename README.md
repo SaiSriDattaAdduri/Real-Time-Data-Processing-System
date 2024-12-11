@@ -85,6 +85,17 @@ npm install express kafkajs amqplib
 ```bash
 node server.js
 ```
+### Run producer file to start sending the messages
+
+```bash
+node producer.js
+```
+
+### Run the consumer file to start receiving the sent messages
+
+```bash
+node consumer.js
+```
 
 ### Expected Behavior
 
